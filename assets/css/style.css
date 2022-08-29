@@ -1809,7 +1809,6 @@ Portfolio Start
 .gallery-item-content .item-thumbnail {
     position: relative;
     overflow: show;
-
     border-radius: 10px;
 }
 
@@ -1819,8 +1818,6 @@ Portfolio Start
     left: 5%;
     width: 90%;
     height: 86%;
-    opacity: 0;
-    transform: scale(0);
     background: #252c48;
     display: flex;
     justify-content: center;
@@ -1831,7 +1828,7 @@ Portfolio Start
     -o-transition: all 0.4s cubic-bezier(0.57, 0.21, 0.69, 1.25);
     transition: all 0.4s cubic-bezier(0.57, 0.21, 0.69, 1.25);
 }
-
+/* row project-gallery-item mix col-md-6 col-lg-4 gallery-item cat-1 cat-3 gallery-item-content pp item-thumbnail content-overlay content project-title */
 .gallery-item-content .item-thumbnail .content-overlay .content .project-title {
     color: #fff;
     font-size: 18px;
@@ -1840,11 +1837,6 @@ Portfolio Start
 
 .gallery-item-content .item-thumbnail .content-overlay .content .project-category {
     color: #94A2C7;
-}
-
-.gallery-item-content .item-thumbnail .content-overlay {
-    opacity: 0.95;
-    transform: scale(1);
 }
 
 .portfolios-page {
