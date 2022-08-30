@@ -1819,16 +1819,18 @@ Portfolio Start
     width: 90%;
     height: 86%;
     background: #252c48;
-    display: flex;
     justify-content: center;
     align-items: center;
+    display: flex;
+    row-gap: 10px;
+    column-gap: 20px;
     text-align: center;
     border-radius: 10px;
     -webkit-transition: all 0.4s cubic-bezier(0.57, 0.21, 0.69, 1.25);
     -o-transition: all 0.4s cubic-bezier(0.57, 0.21, 0.69, 1.25);
     transition: all 0.4s cubic-bezier(0.57, 0.21, 0.69, 1.25);
 }
-/* row project-gallery-item mix col-md-6 col-lg-4 gallery-item cat-1 cat-3 gallery-item-content pp item-thumbnail content-overlay content project-title */
+
 .gallery-item-content .item-thumbnail .content-overlay .content .project-title {
     color: #fff;
     font-size: 18px;
